@@ -4,4 +4,4 @@ import App from './components/App';
 
 const mainElement = document.querySelector('main');
 
-render(<App config={config} />, mainElement);
+render(<App />, mainElement);
