@@ -1,10 +1,7 @@
 import { h, render } from 'preact';
 import App from './components/App';
 
-const config = {
-    urls: {
-        user: 'https://api.github.com/users/marcinruman'
-    }
-};
 
-render(<App config={config} />, document.querySelector('main'));
+const mainElement = document.querySelector('main');
+
+render(<App config={config} />, mainElement);
